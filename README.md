@@ -16,3 +16,7 @@ WhoAmi Docker images :
    $ curl $(hostname --all-ip-addresses | awk '{print $1}'):SPECIFIC_PORT
    
 ```
+
+   http://localhost:8081
+   
+   
