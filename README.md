@@ -11,4 +11,5 @@ WhoAmi Docker images :
 
    $ docker inspect --format '{{ .NetworkSettings.Ports }}'  businessService
 
+   $ curl $(hostname --all-ip-addresses | awk '{print $1}'):SPECIFIC_PORT
 ```
