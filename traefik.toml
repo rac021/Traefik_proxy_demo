@@ -1,7 +1,14 @@
  port = ":80"
  graceTimeOut = 10
  logLevel = "INFO"
-
+ 
+ defaultEntryPoints = ["http", "https"]
+ entryPoint = "http"
+ 
+ [entryPoints]
+   [entryPoints.http]
+   address = ":8000"
+ 
  [web]
  address = ":8081"
 
