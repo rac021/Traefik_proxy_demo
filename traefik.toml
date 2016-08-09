@@ -1,0 +1,11 @@
+ port = ":80"
+ graceTimeOut = 10
+ logLevel = "INFO"
+
+ [web]
+ address = ":8081"
+
+[docker]
+endpoint = "unix:///var/run/docker.sock"
+domain = "tty0.in"
+watch=true
