@@ -4,7 +4,9 @@
 WhoAmi Docker images :
 
 ```
-❯  $ docker run -d \
+❯  $ sudo ./traefik --configFile=traefik.toml
+
+   $ docker run -d \
      -l traefik.backend=test1 \
      -l traefik.frontend.rule=HOST:test.localhost \
      -P --name businessService emilevauge/whoami
@@ -12,4 +14,5 @@ WhoAmi Docker images :
    $ docker inspect --format '{{ .NetworkSettings.Ports }}'  businessService
 
    $ curl $(hostname --all-ip-addresses | awk '{print $1}'):SPECIFIC_PORT
+   
 ```
