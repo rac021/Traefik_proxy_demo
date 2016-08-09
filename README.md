@@ -1,5 +1,6 @@
 # Traefik_proxy_demo
 
+For wildcard local domains can use  **Dnsmasq**
 
 WhoAmi Docker images :
 
