@@ -23,7 +23,7 @@ WhoAmi Docker images :
    
 ```
 
-   **Web-UI** : localhost:8081
+   **Web-UI :** localhost:8081
    
    **Rerouting :**
    
