@@ -1,6 +1,11 @@
 # Traefik_proxy_demo
 
-For wildcard local domains can use  **Dnsmasq**
+**Dnsmasq**
+```
+❯ $ head /etc/dnsmasq.conf 
+    address=/localhost/172.17.0.1
+ 
+```
 
 WhoAmi Docker images :
 
