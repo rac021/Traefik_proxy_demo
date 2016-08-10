@@ -2,7 +2,7 @@ port = ":80"
 graceTimeOut = 10
 logLevel = "INFO"
 
-defaultEntryPoints = ["http", "https"]
+defaultEntryPoints = ["http"]
 entryPoint = "http"
 
 [entryPoints]
