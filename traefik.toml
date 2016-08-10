@@ -16,5 +16,5 @@ watch = true
 [docker]
 endpoint = "unix:///var/run/docker.sock"
 domain = "docker.localhost"
-
+watch = true
 
