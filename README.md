@@ -23,6 +23,9 @@ WhoAmi Docker images :
    
 ```
 
-   http://localhost:8081
+   **Web-UI** : localhost:8081
    
+   **Rerouting :**
+   
+   Traefik will reroute **test.localhost:8000** to the right container ( businessService )
    
