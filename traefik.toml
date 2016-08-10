@@ -1,19 +1,20 @@
- port = ":80"
- graceTimeOut = 10
- logLevel = "INFO"
+port = ":80"
+graceTimeOut = 10
+logLevel = "INFO"
+
+defaultEntryPoints = ["http", "https"]
+entryPoint = "http"
+
+[entryPoints]
+  [entryPoints.http]
+  address = ":8000"
  
- defaultEntryPoints = ["http", "https"]
- entryPoint = "http"
- 
- [entryPoints]
-   [entryPoints.http]
-   address = ":8000"
- 
- [web]
- address = ":8081"
+[web]
+address = ":8081"
+watch = true
 
 [docker]
 endpoint = "unix:///var/run/docker.sock"
-domain = "tty0.in"
-watch=true
+domain = "docker.local.com"
+
 
