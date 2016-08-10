@@ -9,7 +9,7 @@ WhoAmi Docker images :
 
    $ docker run -d \
      -l traefik.backend=test1 \
-     -l traefik.frontend.rule=HOST:test.localhost \
+     -l traefik.frontend.rule=Host:test.localhost \
      -P --name businessService emilevauge/whoami
 
    $ docker inspect --format '{{ .NetworkSettings.Ports }}'  businessService
