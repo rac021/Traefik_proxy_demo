@@ -14,7 +14,7 @@ WhoAmi Docker images :
 
 ```
 
-![traefik_01](https://cloud.githubusercontent.com/assets/7684497/17546778/044d7cac-5ee4-11e6-813b-ee5c9a3e32d4.png)
+![traefuk_01](https://cloud.githubusercontent.com/assets/7684497/17548330/b323b51e-5eeb-11e6-9fdf-9aee7816767d.png)
 
 ``` 
 ❯  $ docker run -d \
