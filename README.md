@@ -5,6 +5,8 @@
 ❯ $ head /etc/dnsmasq.conf 
     address=/localhost/172.17.0.1
  
+  $ sudo service dnsmasq restart
+    
 ```
 
 WhoAmi Docker images :
