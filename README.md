@@ -8,8 +8,10 @@
   $ sudo service dnsmasq restart
     
 ```
+*for more help : [ https://davejamesmiller.com/blog/installing-dnsmasq-wildcard-local-domains-debian ]*
 
-WhoAmi Docker images :
+
+**Traefik commande**
 
 ```
 ❯  $ sudo ./traefik --configFile=traefik.toml
@@ -17,6 +19,9 @@ WhoAmi Docker images :
 ```
 
 ![traefuk_01](https://cloud.githubusercontent.com/assets/7684497/17548330/b323b51e-5eeb-11e6-9fdf-9aee7816767d.png)
+
+
+**WhoAmi Docker images :**
 
 ``` 
 ❯  $ docker run -d \
