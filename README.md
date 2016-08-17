@@ -11,6 +11,8 @@
 
 *     *for more help* : https://davejamesmiller.com/blog/installing-dnsmasq-wildcard-local-domains-debian   
 
+
+
 **Traefik commande**
 
 ```
@@ -41,7 +43,7 @@
    
    
    
-*Note :* Traefik will reroute **test.localhost:8000** to the right container ( businessService )
+*Note :* Traefik will reroute **test.localhost:8000** to the right container ( businessService in this case )
    
    
 **Load Balancing : Scalable Traffic**
