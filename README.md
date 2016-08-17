@@ -6,10 +6,10 @@
     address=/localhost/172.17.0.1
  
   $ sudo service dnsmasq restart
-    
-```
-*     *for more help : https://davejamesmiller.com/blog/installing-dnsmasq-wildcard-local-domains-debian*
 
+```
+
+*     *for more help* : https://davejamesmiller.com/blog/installing-dnsmasq-wildcard-local-domains-debian   
 
 **Traefik commande**
 
