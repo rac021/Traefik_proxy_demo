@@ -24,8 +24,10 @@
 
 ![traefuk_01](https://cloud.githubusercontent.com/assets/7684497/17548330/b323b51e-5eeb-11e6-9fdf-9aee7816767d.png)
 
-
-**WhoAmi Docker images :**
+ 
+----------------------------------------------------
+ 
+**WhoAmi Docker image :**
 
 ``` 
 ❯  $ docker run -d \
@@ -47,7 +49,8 @@
    
 *Note :* Traefik will reroute **test.localhost:8000** to the right container ( businessService in this case )
    
-   
+----------------------------------------------------
+
 **Load Balancing : Scalable Traffic**
 
 ```
