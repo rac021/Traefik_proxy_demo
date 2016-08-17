@@ -62,5 +62,5 @@
 
 **Rerouting :**
    
-Traefik will reroute **test.localhost:8000** to one of the corresponding backend container ( businessService )
+Traefik will reroute **test.localhost:8000** to one of the corresponding backend container : reverent_jepsen , lonely_wilson...
    
