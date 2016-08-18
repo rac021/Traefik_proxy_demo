@@ -4,12 +4,17 @@
 ```
 ❯ $ head /etc/dnsmasq.conf 
     address=/localhost/172.17.0.1
- 
+    
+  $ head /etc/resolv.conf
+    nameserver 172.17.0.1
+  
   $ sudo service dnsmasq restart
 
 ```
 
-*     *for more help* : https://davejamesmiller.com/blog/installing-dnsmasq-wildcard-local-domains-debian   
+*     *More help* : 
+    -    https://davejamesmiller.com/blog/installing-dnsmasq-wildcard-local-domains-debian
+    -    https://wiki.archlinux.org/index.php/dnsmasq 
 
 
 ----------------------------------------------------
